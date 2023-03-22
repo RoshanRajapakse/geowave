@@ -84,7 +84,7 @@
 		<vfs2.version>2.3</vfs2.version>
 		<configuration2.version>2.3</configuration2.version>
 		<hbase.version>2.4.2</hbase.version>
-		<hadoop.version>3.1.2</hadoop.version>
+		<hadoop.version>3.3.5</hadoop.version>
 		<avro.version>1.7.6</avro.version>
 		<awssdk.version>1.11.1015</awssdk.version>
 		<httpclient.version>4.5.13</httpclient.version>
@@ -129,7 +129,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<sonar.language>java</sonar.language>
-		<container.extension />
+		<container.extension/>
 		<!-- Feed Sonar with the JaCoCo integration tests coverage report (that 
 			you have previously generated) -->
 		<jacoco.it.reportPath>${project.build.directory}/coverage-reports/jacoco-it.exec
@@ -1256,7 +1256,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1269,7 +1269,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute />
+										<execute/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1288,7 +1288,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
@@ -1426,7 +1426,7 @@
 						<LD_LIBRARY_PATH>${gdal.dir}</LD_LIBRARY_PATH>
 						<PATH>${gdal.dir}${path.separator}${env.PATH}</PATH>
 						<GDAL_DIR>${gdal.dir}</GDAL_DIR>
-						<NCS_USER_PREFS />
+						<NCS_USER_PREFS/>
 					</environmentVariables>
 					<outputDirectory>${surefire.report.path}</outputDirectory>
 				</configuration>
@@ -1644,7 +1644,7 @@
 				<!-- standalone installer seems to work better at least on windows with 
 					hadoop2 (more compatible with local FS), hbase shaded client is packaged 
 					with 2.10.0, which is what the ITs end up finding first -->
-				<hadoop.version>2.10.0</hadoop.version>
+				<hadoop.version>3.3.5</hadoop.version>
 			</properties>
 			<build>
 				<pluginManagement>
