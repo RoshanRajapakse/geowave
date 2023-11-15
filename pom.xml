@@ -70,7 +70,7 @@
 		<thrift.version>0.12.0</thrift.version>
 		<bigtable.version>1.20.0</bigtable.version>
 		<cassandra.version>4.0.1</cassandra.version>
-		<redisson.version>3.15.5</redisson.version>
+		<redisson.version>3.17.7</redisson.version>
 		<rocksdb.version>6.19.3</rocksdb.version>
 		<cassandraclient.version>4.11.1</cassandraclient.version>
 		<cassandraunit.version>4.3.1.0</cassandraunit.version>
@@ -129,7 +129,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<sonar.language>java</sonar.language>
-		<container.extension />
+		<container.extension/>
 		<!-- Feed Sonar with the JaCoCo integration tests coverage report (that 
 			you have previously generated) -->
 		<jacoco.it.reportPath>${project.build.directory}/coverage-reports/jacoco-it.exec
@@ -1256,7 +1256,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1269,7 +1269,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute />
+										<execute/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1288,7 +1288,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
@@ -1426,7 +1426,7 @@
 						<LD_LIBRARY_PATH>${gdal.dir}</LD_LIBRARY_PATH>
 						<PATH>${gdal.dir}${path.separator}${env.PATH}</PATH>
 						<GDAL_DIR>${gdal.dir}</GDAL_DIR>
-						<NCS_USER_PREFS />
+						<NCS_USER_PREFS/>
 					</environmentVariables>
 					<outputDirectory>${surefire.report.path}</outputDirectory>
 				</configuration>
