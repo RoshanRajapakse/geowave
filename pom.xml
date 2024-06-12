@@ -86,7 +86,7 @@
 		<hbase.version>2.4.2</hbase.version>
 		<hadoop.version>3.1.2</hadoop.version>
 		<avro.version>1.7.6</avro.version>
-		<awssdk.version>1.11.1015</awssdk.version>
+		<awssdk.version>1.12.741</awssdk.version>
 		<httpclient.version>4.5.13</httpclient.version>
 		<httpcore.version>4.4.4</httpcore.version>
 		<geotools.scope>compile</geotools.scope>
@@ -129,7 +129,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<sonar.language>java</sonar.language>
-		<container.extension />
+		<container.extension/>
 		<!-- Feed Sonar with the JaCoCo integration tests coverage report (that 
 			you have previously generated) -->
 		<jacoco.it.reportPath>${project.build.directory}/coverage-reports/jacoco-it.exec
@@ -1256,7 +1256,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1269,7 +1269,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute />
+										<execute/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1288,7 +1288,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
@@ -1426,7 +1426,7 @@
 						<LD_LIBRARY_PATH>${gdal.dir}</LD_LIBRARY_PATH>
 						<PATH>${gdal.dir}${path.separator}${env.PATH}</PATH>
 						<GDAL_DIR>${gdal.dir}</GDAL_DIR>
-						<NCS_USER_PREFS />
+						<NCS_USER_PREFS/>
 					</environmentVariables>
 					<outputDirectory>${surefire.report.path}</outputDirectory>
 				</configuration>
