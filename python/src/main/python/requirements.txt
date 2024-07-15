@@ -3,3 +3,4 @@ shapely==1.7.1
 pytest==4.3.1
 pytest-cov==2.7.1
 pdoc3==0.6.3
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
