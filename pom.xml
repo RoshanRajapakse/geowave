@@ -103,7 +103,7 @@
 		<kafka.version>2.8.0</kafka.version>
 		<snappy.version>1.1.8.2</snappy.version>
 		<collections4.version>4.4</collections4.version>
-		<io.version>2.8.0</io.version>
+		<io.version>2.14.0</io.version>
 		<text.version>1.6</text.version>
 		<lang3.version>3.8.1</lang3.version>
 		<jcommander.version>1.81</jcommander.version>
@@ -129,7 +129,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<sonar.language>java</sonar.language>
-		<container.extension />
+		<container.extension/>
 		<!-- Feed Sonar with the JaCoCo integration tests coverage report (that 
 			you have previously generated) -->
 		<jacoco.it.reportPath>${project.build.directory}/coverage-reports/jacoco-it.exec
@@ -1256,7 +1256,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1269,7 +1269,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute />
+										<execute/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1288,7 +1288,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
@@ -1426,7 +1426,7 @@
 						<LD_LIBRARY_PATH>${gdal.dir}</LD_LIBRARY_PATH>
 						<PATH>${gdal.dir}${path.separator}${env.PATH}</PATH>
 						<GDAL_DIR>${gdal.dir}</GDAL_DIR>
-						<NCS_USER_PREFS />
+						<NCS_USER_PREFS/>
 					</environmentVariables>
 					<outputDirectory>${surefire.report.path}</outputDirectory>
 				</configuration>
